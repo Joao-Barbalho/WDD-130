@@ -194,7 +194,29 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
+#img2{
+    width: 100%;
+    height: 55%;
+}
+#dates-rates{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 10rem auto 0 0;
+}
 
+#dates-rates img {
+    
+    height: 250px;
+}
+#dates-rates h1{
+    color:#e71d36;
+    
+}
+#dates-rates p {
+    color: white;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
